@@ -11,6 +11,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* .item3 {
+  min-width: 600px;
+} */
 
 .countdown div {
   font-size: 2.5em;
@@ -19,6 +22,7 @@ body {
   position: relative;
   text-align: center;
   width: 100px;
+  display: inline-block;
   /* background-color: aqua; */
 }
 
@@ -76,13 +80,13 @@ body {
   color: white;
   padding: 0;
   margin: 0;
-  font-size: 5vh;
+  /* font-size: 5vh; */
   font-family: cursive;
   letter-spacing: 4px;
 }
 .grid-container .header h2 {
   color: white;
-  font-size: 7vh;
+  /* font-size: 7vh; */
   padding: 0;
   margin: 0;
   margin-top: 40px;
@@ -119,4 +123,13 @@ body {
 .grid-container .item4 img {
   width: 100%;
   height: 300px;
+}
+@media screen and (min-width: 51px) {
+  .grid-container .header h1 {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .grid-container .header h2 {
+    font-size: 7vw;
+  }
 }
